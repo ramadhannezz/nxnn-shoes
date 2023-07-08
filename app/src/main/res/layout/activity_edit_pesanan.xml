@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".view.TambahPesananActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="40dp"
+            android:background="@drawable/blue_border">
+
+            <TextView
+                android:id="@+id/updateJudul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Pesanan"
+                android:textStyle="bold"
+                android:textSize="30sp"
+
+                android:textAlignment="center"
+                android:textColor="@color/dark_blue"/>
+
+            <EditText
+                android:id="@+id/uploadNama2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_border"
+                android:layout_marginTop="20dp"
+                android:hint="Nama Pemesan"
+                android:paddingLeft="15dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:textSize="15sp"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/dark_blue"/>
+
+            <EditText
+                android:id="@+id/uploadTlp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_border"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:textSize="15sp"
+                android:hint="No Telepon "
+                android:gravity="start|center_vertical"
+                android:textColor="@color/dark_blue"/>
+
+            <EditText
+                android:id="@+id/uploadMerek2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_border"
+                android:layout_marginTop="10dp"
+                android:hint="Merk Sepatu"
+                android:paddingLeft="15dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:textSize="15sp"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/dark_blue"/>
+
+            <EditText
+                android:id="@+id/uploadWarna2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_border"
+                android:layout_marginTop="10dp"
+                android:hint="Warna Sepatu"
+                android:paddingLeft="15dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:textSize="15sp"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/dark_blue"/>
+
+            <EditText
+                android:id="@+id/uploadUkuran2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/blue_border"
+                android:layout_marginTop="10dp"
+                android:hint="Ukuran Sepatu"
+                android:paddingLeft="15dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:textSize="15sp"
+                android:gravity="start|center_vertical"
+                android:textColor="@color/dark_blue"/>
+
+            <Button
+                android:id="@+id/chooseImageButton"
+                android:text="Choose Image"
+                android:textSize="14sp"
+                app:cornerRadius = "20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/updateButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Update"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="20dp"/>
+
+            <Button
+                android:id="@+id/deleteButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Hapus"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="20dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

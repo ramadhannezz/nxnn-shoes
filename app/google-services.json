@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "369539852701",
+    "project_id": "signup-login-proyekakhir-dabca",
+    "storage_bucket": "signup-login-proyekakhir-dabca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369539852701:android:cd1ed6a6439be16d94a774",
+        "android_client_info": {
+          "package_name": "com.example.proyekakhir13439"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369539852701-22ph8hpj4rpa6edcum870sq3gcvanpqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgM_CxNYH4ZMt2W8Endwk-UOZrYx1SQ8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369539852701-22ph8hpj4rpa6edcum870sq3gcvanpqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
